@@ -1,0 +1,91 @@
+{
+  "refreshed": "2026-11-04T15:03:11-06:00",
+  "target": "2026-11-06",
+  "signal": {
+    "delivery": "2026-11-06",
+    "gas_date": "2026-10-23",
+    "weather_date": "2026-11-03",
+    "market_date": "2026-10-27",
+    "forecast": -0.925226711097975,
+    "target_mwh": 0.0,
+    "intercept": -0.7146238425925928,
+    "contributions": {
+      "spark": 0.23417306083994519,
+      "north_premium": 0.9077229816976247,
+      "premium_vol": -0.5947718225869179,
+      "weekend": -0.22408251538709617,
+      "cooling": -1.1484148430884233,
+      "heating": 0.025068438414320455,
+      "wind": 0.07193666099122697,
+      "humidity": 0.5177651706139379
+    },
+    "features": {
+      "spark": 7.426488095238099,
+      "north_premium": -2.9235267857142864,
+      "premium_vol": 5.86680172323025,
+      "weekend": 0,
+      "cooling": 2.0,
+      "heating": 0,
+      "wind": 10.167022,
+      "humidity": 68.11357
+    }
+  },
+  "first": "2025-01-01",
+  "last": "2026-10-31",
+  "days": 669,
+  "active": 421,
+  "net": -36294.672369792126,
+  "drawdown": -38660.82882809898,
+  "no_weather": -10044.384309602785,
+  "always_long": -87856.40266013063,
+  "double_cost_net": -52379.591740899916,
+  "always_short": 37912.17750432191,
+  "latest_dates": {
+    "day_ahead": "2026-10-31",
+    "real_time": "2026-10-31",
+    "gas": "2026-11-03",
+    "weather": "2026-11-03"
+  },
+  "sources": [
+    [
+      "DA",
+      "https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1065468714",
+      "2025-01-01T08:07:33-06:00"
+    ],
+    [
+      "DA",
+      "https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1177667469",
+      "2026-01-01T08:44:09-06:00"
+    ],
+    [
+      "DA",
+      "https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1293441252",
+      "2026-11-01T08:02:55-06:00"
+    ],
+    [
+      "RT",
+      "https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1065471230",
+      "2025-01-01T08:18:28-06:00"
+    ],
+    [
+      "RT",
+      "https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1177737535",
+      "2026-01-01T13:25:58-06:00"
+    ],
+    [
+      "RT",
+      "https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1293442632",
+      "2026-11-01T08:08:41-06:00"
+    ],
+    [
+      "gas",
+      "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DHHNGSP",
+      ""
+    ],
+    [
+      "weather",
+      "https://mesonet.agron.iastate.edu/cgi-bin/request/daily.py?network=TX_ASOS&stations=DFW&var=max_temp_f&var=min_temp_f&var=avg_wind_speed_kts&var=avg_rh&format=csv&na=blank&year1=2024&month1=1&day1=1&year2=2026&month2=11&day2=4",
+      ""
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.market-cache/
+node_modules/
+*.tmp
+artifacts/*.png
+artifacts/*.ndjson
