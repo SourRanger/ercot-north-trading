@@ -63,5 +63,9 @@ line(40,706,"RESEARCH IMPLEMENTATION",8,"Bold",teal)
 para(40,723,"Python refreshes public feeds and fits each forecast on 180 prior observations. SQLite stores settlements and dated paper signals. Excel reconciles positions, fees and daily P&L. Fills are hypothetical.",532,9,12)
 for x,txt,url in [(40,"ERCOT settlement archives","https://www.ercot.com/mktinfo/prices"),(206,"EIA Henry Hub via FRED","https://fred.stlouisfed.org/series/DHHNGSP"),(365,"Iowa Environmental Mesonet","https://mesonet.agron.iastate.edu/request/daily.phtml?network=TX_ASOS")]:
     line(x,769,txt,8,"Body",teal);c.linkURL(url,(x,20,x+145,33),relative=0)
+url="https://github.com/SourRanger/ercot-north-trading"
+line(40,748,"Project code and results  /  github.com/SourRanger/ercot-north-trading",10,"Bold",teal)
+c.linkURL(url,(40,40,410,55),relative=0)
 c.save()
+
 
